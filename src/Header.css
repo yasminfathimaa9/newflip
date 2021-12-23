@@ -1,0 +1,91 @@
+@media screen and (min-width:900px) { 
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+        
+    
+          
+    .header{
+        background-color: rgb(72, 75, 170);
+        height: 80px;
+    padding-top: 8px;
+        position: sticky;
+        top:0;
+    
+    }
+    .img{
+       
+        position: relative;
+        left:-40%;
+        width:12vw;
+        
+    }
+    .input{
+        position: relative;
+        top:-50px;
+        
+        width:30vw;
+        padding:10px;
+    }
+    .login{
+        width:8vw;
+        background-color: whitesmoke;
+        /* color:white; */
+        position: relative;
+        top:-50px;
+        left:20px;
+        padding:10px;
+        font-size:1rem;
+        cursor:pointer;
+    
+    }
+    .header-images{
+        
+        display:flex;
+       justify-content: space-evenly;
+       background-color: rgb(236, 228, 228); 
+       
+    }
+    .images{
+    margin-top:20px;
+         
+        width:50px;
+        height:50px;
+       cursor:pointer;
+       
+    }
+    .header-images:hover{
+        color:rgb(90, 79, 79);
+        transition: -5s ease-in;
+        
+    }
+    .size{
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+      .img1{
+         
+        display: flex;
+        transition: -10s ease-in;
+        cursor: pointer;
+    
+    }  
+    .img2{
+        display: flex;
+        cursor: pointer;
+        /* width:100px;
+        height:100px; */
+    }
+    .content
+    {
+      
+        color:gray;
+        font-size: 0.8rem;
+        text-align: left;
+        margin:8px;
+    
+    }
+ } 
+
